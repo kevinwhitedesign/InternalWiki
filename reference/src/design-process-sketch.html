@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Design Process: Sketch</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/typing.js">
+    </script>
+</head>
+
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<div class="topnav">
+    <a href="index.html" class="no-pad" style="padding-left:0px; ">Home</a>
+    <span style="padding-left: 50px;"></span>
+    <a href="xi-basics.html">The Basics</a>
+    <span style="padding-left: 50px;"></span>
+    <a href="design-process.html">Design Process</a>
+    <span style="padding-left: 50px;"></span>
+    <a href="resources.html">Resources</a>
+</div>
+
+
+<!-- block 1 -->
+
+<div class="wrapper">
+<div class="content-block">
+    <h2>Design Process</h2>
+    <ul class="link-nav">
+        <li class="list-subtitle">Articles:</li>
+        <li><a href="design-process.html">General Design</a></li>
+        <li><a href="design-process-photoshop.html">Photoshop</a></li>
+        <li><a href="design-process-sketch.html" class="active-link">Sketch</a></li>
+        <li><a href="design-process-tools.html">Tools</a></li>
+    </ul>
+    <h2>Working with Sketch</h2>
+    <h3>Duplicating Elements</h3>
+    <div class="content">
+        <p>Repetitive tasks can be time consuming and melt away your design budget like ice cream on a sunny summer day.
+        One of these repetitive tasks is duplicating elements and positioning the duplicates with exactly the same
+        white space in between.</p>
+        <p><strong>Quickly duplicate elements with alt + drag, or cmd + d.</strong></p>
+        <p>Select an object, press alt and drag to create a copy. You may recognise this behavior from Adobe Photoshop
+        and Illustrator, but no shit Sherlock, Sketch does it way better.</p>
+        <p>Keep holding alt, Sketch will show you the exact distance between the duplicate, the original object, and
+        the artboard. I use the alt key like a reflex to check whether my margins and paddings are consistent.</p>
+        <p>Time for some shortcut power: press cmd + d. Now repeat this until you have the desired duplicates.
+        Adobe Illustrator users will see familiarities with the 'step and repeat' function. Unfortunately Sketch doesn't
+        support drag and repeat for radial distances yet.</p>
+    </div>
+    <div class="txt-center"><img src="img/sketch.png" width="200px"></div>
+    <h3>Sorting Layers</h3>
+    <div class="content">
+        <p>Quickly sort layers on text value or layer name with Sketch Mate plugin.</p>
+        <p>Imagine you are building a dropbox-like app that needs a list of files in a folder. The files in this list
+        can be sorted alphabetically or on the date it was added.</p>
+        <p>You have wisely decided to avoid Lorem Ipsum dummy text and included some example content and you need to
+        sort the list according to the actions.</p>
+        <p>You can finish the puzzle yourself manually, but let's speed things up with the Sketch Mate plugin.</p>
+        <ol>
+            <li>Open Sketch Toolbox.</li>
+            <li>Search for 'Sketch Mate'.</li>
+            <li>Install 'Sketch Mate'.</li>
+        </ol>
+        <p>Sketch Mate is a combination of useful shortcuts. We will use the sort functionality that repositions
+        layers based on Text or Layer Name.</p>
+        <p>We want to sort the files list alphabetically. Duplicate the artboard and select the groups you want to
+        organize.</p>
+        <p>In the menu bar, go to Plugins > Sketch Mate > Sort > Sort Layers. In the current build there is a conflict
+        between shortcuts. In the dialog screen, select 'Text (A>Z)'. If there are multiple text layers inside the group
+        you will have to choose which text value you want to organize. Choose 'File Name' and click 'OK'. Watch your
+        design finish itself in a blink of an eye.</p>
+        <p>This also works for time values. A great technique for big dashboard designs.</p>
+    </div>
+    <h3>Creating Symbols</h3>
+    <div class="content">
+        <p>To create your first symbol, select a group, or a number of layers and click the Creat Symbol icon in the toolbar.
+        Alternatively, go to Layer > Create Symbol in the menu.</p>
+        <p>If whatever you had selected wasn't yet a group, Sketch will group them together first. You now have a purple
+        icon in the layer list and you can give your Symbol a new name in the inspector.</p>
+        <p>Now you can go to Insert > Symbol, and insert a new instance of your Symbol into the canvas. Likewise you can
+        copy-paste or duplicate an existing instance of a symbol and Sketch will link them together as well.</p>
+    </div>
+    <h3>Organizing Symbols</h3>
+    <div class="content">
+        <p>If you create a lot of symbols in your document, you may want to group them together somehow, because a long
+        list of symbols isn't that helpful.</p>
+        <p>If you go to Insert > Symbol > Manage Symbols, you will get a dropdown sheet with a list of all the symbols
+        in your document. You can rename or delete them there. If you include a slash (/) in the name of the Symbol, Sketch
+        will treat these as group separators. For example, two Symbols named Button/Normal and Button/Pressed will be
+        grouped together into a submenu called Button.</p>
+        <p>Note that they are always sorted alphabetically, not in their order of creation.</p>
+    </div>
+</div>
+
+
+
+    <div class="pad-bot"></div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.4.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+
+</body>
+</html>

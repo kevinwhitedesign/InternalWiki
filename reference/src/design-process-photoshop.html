@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Design Process</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/typing.js">
+    </script>
+</head>
+
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<div class="topnav">
+    <a href="index.html" class="no-pad" style="padding-left:0px; ">Home</a>
+    <span style="padding-left: 50px;"></span>
+    <a href="xi-basics.html">The Basics</a>
+    <span style="padding-left: 50px;"></span>
+    <a href="design-process.html">Design Process</a>
+    <span style="padding-left: 50px;"></span>
+    <a href="resources.html">Resources</a>
+</div>
+
+<!-- block 1 -->
+
+<div class="wrapper">
+<div class="content-block">
+    <img src="img/menu.svg" id="menu-icon">
+    <h2>Design Process</h2>
+    <ul class="link-nav">
+        <li class="list-subtitle">Articles:</li>
+        <li><a href="design-process.html">General Design</a></li>
+        <li><a href="design-process-photoshop.html" class="active-link">Photoshop</a></li>
+        <li><a href="design-process-sketch.html">Sketch</a></li>
+        <li><a href="design-process-tools.html">Tools</a></li>
+    </ul>
+    <h2 id="photoshop">Working with Photoshop</h2>
+    <h3>Naming Layers</h3>
+    <div class="content">
+        <p>Arguably the biggest source of angst amongst PSD inheritors, messy and unnamed layers suck the fun out of
+            any situation. If you do nothing else, name your layers!</p>
+        <p>WHY? The quintessential piece of etiquette: naming your layers instantly decreases confusion and improves
+            acclimation to an otherwise unfamiliar document.</p>
+    </div>
+</div>
+
+<div class="content-block indent">
+    <a href="">Handing off PSDs that Won't Make your Coworkers Hate You </a> / Blair Culbreth
+    <br><a href="">Organizing Photoshop</a> / Chris Coyier
+    <br><a href="">How to Turn Off 'Add Copy' to Copied Layers</a> / Dave Catley
+</div>
+
+<div class="content-block">
+    <div class="content">
+        <p>Don't be selfish, give your layers proper names! It makes life a lot easier for the next person who has to
+            work on your designs, and you'll look amazing if the file gets sent off to a client. A good technique is
+            to give each layer a name as they're created, which is much easier than trying to do them all at once later on.</p>
+    </div>
+
+    <div class="txt-center"><img src="img/layername.png" width="400px"></div>
+    <h3>Making Use of Folders</h3>
+    <div class="content">
+        <p>Grouping layers makes it easy to show/hide various areas quickly.
+        </p>
+        <p>WHY? Happy layers have happy homes. Folders group like-items for easier navigation and editing.</p>
+    </div>
+</div>
+
+<div class="content-block indent">
+    <a href="">How to Effectively Organize your Photoshop Layers</a> / Josh Sears
+</div>
+
+<div class="content-block">
+    <h3>Delete your Empty Layers</h3>
+    <div class="content">
+        <p>Are you a layer hoarder? It's OK to get rid of all the unused layers from your PSD.
+        </p>
+        <p>WHY? Having too many layers hanging around usually results in an unnecessary bloat of file size and
+            can affect performance.</p>
+    </div>
+    <h3>Globalize Common Elements</h3>
+    <div class="content">
+        <p>No reason to have 5 copies of the logo for different layouts. Globalize it on a master layer.
+        </p>
+        <p>WHY? If you use an element (logo, photo, etc.) in multiple layouts within the PSD, only having to edit it
+            in one place makes a lot of sense.</p>
+    </div>
+    <h3>Smart Objects in Photoshop</h3>
+    <div class="content">
+        <h4>Creating Smart Objects</h4>
+        <p>
+            Smart Objects can be created in a number of ways, and typically, the type of Smart Object you create
+            depends heavily on how and where you create them. For instance, you can create Linked Smart Objects
+            (Photoshop CC 14.2) or Embedded Smart Objects. Smart Objects can be created from the Layers panel by
+            right clicking on them, or you can create them by simply dragging and dropping items onto your canvas.
+        </p>
+        <div class="txt-center"><img src="img/photoshp-smartobject.png" width="400px"></div>
+        <h4>Shared Source</h4>
+        <p>If you duplicate a Smart Object the usual way in a Photoshop document, the same embedded or linked
+        source file will be used for both instances. That means you can duplicate a Smart Object several times and
+        you can update them all by just changing their shared source file.</p>
+    </div>
+    <h3>The Best Tricks to Reduce Photoshop File Size</h3>
+    <div class="content">
+        <ol>
+            <li>
+                Put a Solid Color Layer on Top
+                <p>This is the craziest and most highly effective trick I've come across, and I found it entirely by accident.
+                    I recently downloaded a pack of large PSDs only to find that when I looked at them in Finder, they appeared
+                    to be blank. However, when I opened them up in Photoshop, all the promised layers were present,
+                    there was simply a solid white layer on top. Why on earth would someone do this?
+                </p>
+                <p>
+                    As I experimented with the files, I quickly found the answer. It turns out, deleting that layer made the file
+                    size increase substantially! Photoshop's high quality file previews are surprisingly weighty, so simplifying
+                    them as much as possible saves you tons of space on huge files.
+                </p>
+                <p>
+                    Obviously, the downside here is that you lose the nice file previews in applications like Finder and Bridge.
+                    If you need a no-brainer, quick way to cut down a PSD before you upload it though, it's a great trick.
+                </p>
+                <p>
+                    <em>Tip: Instead of adding a layer on top, you could simply hide all the layers. This can get tricky
+                    though if you have a complex PSD where some layers should be hidden while others should be showing.</em>
+                </p>
+            </li>
+            <li>
+                Only Keep the Essential
+                <p>
+                    I know this one sounds kind of obvious, but it's easy to forget some of the junk that accrues as you
+                    create your document. Hidden layers used to trace a design? Delete them. A layer for your color
+                    palette? Delete it. Notes and measurements? Delete them. When going through, ask yourself, "Does the
+                    recipient of the file need to see this?" If the answer is no, then delete it.
+                </p>
+            </li>
+            <li> Merge/Flatten Layers
+                <p>
+                    The idea here is simple. A PSD with 100 layers is much larger than a PSD with ten layers. Be careful
+                    though, flattening layers is destructive and greatly reduces your ability to make changes to your
+                    file. Only flatten the PSD that you're sending to a client, printer, etc., and only flatten layers
+                    that will never need to be edited by the person receiving the file.
+                </p>
+                <p>
+                    Sometimes, flattening is actually a good precaution before sharing your files. There are tons of
+                    cases where you don't want the person who receives the file to be able to change certain aspects,
+                    and flattening any critical layers is the best way to ensure that making changes is more work than they
+                    care to tackle.
+                </p>
+            </li>
+            <li>
+                Applying Layer Masks
+                <p>
+                    Layer masks are a complex tool that eat up plenty of 1s and 0s. They're essentially extra layers that
+                    can hide in plain sight. Right-click on a mask, then apply it and you'll reduce your file size.
+                </p>
+            </li>
+        </ol>
+    </div>
+</div>
+
+
+<div class="pad-bot"></div>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.4.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+</body>
+</html>
